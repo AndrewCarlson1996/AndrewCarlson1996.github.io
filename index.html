@@ -2,7 +2,120 @@
 <html>
     <title>Andrew's Blog</title>
     <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
+        <h1 align="center">A Brief History of Ray Tracing</h1>
+        <h3 align="center">Basic premise of ray tracing:</h3>
+        <p>Ray tracing is a technique that “shoots” rays from a specific 
+            point/camera and follows them to see where the go and what 
+             bounce off of. This is very effective technique to render 
+             very realistic and immersive lighting and shading in movies, 
+             pictures, and video game. The core idea of ray tracing has 
+             been around for hundreds of years and the use of ray tracing 
+             in video and images has been in use for decades. However, 
+             it was not until recently that ray tracing as we know it 
+             began to be used by companies like Pixar for their animated 
+             films. It has been even more recently that the hardware 
+             capabilities were finally good enough to run a “lighter” 
+             version of ray tracing in real time in video games.</p>
+
+        <h3 align="center">Durer’s Door and the inception of ray tracing:</h3>
+        <p width="75%">Ray tracing is a concept that originated as far back as the 
+            1525 when Albrecht Durer created an apparatus known as 
+            Durer’s Door. Durer’s Door was a primitive setup that 
+            consisted of a stylus, a string that connects to the stylus 
+            and extends through a door and attaches to a hook mounted 
+            to a wall. In this concept, the hook on the wall represents 
+            the camera in modern ray tracing. Due to this invention and 
+            the written works by Durer, he is credited with the 
+            invention of ray tracing.</p>
+        <h3 align="center">Ray tracing in the modern era:</h3>
+        <p>After 1525, not a lot is known about the development of the 
+            concept of ray tracing until it was first successfully used 
+            to 1968 to create a computer-generated shaded image. This 
+            image was created by Arthur Appel. 3 years later, a 3D 
+            simulation was released by Mathematical Application Group 
+            Inc. (MAGI). In this simulation, MAGI used ray tracing to, 
+            in reverse order, simulate the photographic process.  The 
+            technique they used, which was based on ray tracing, was 
+            called ray casting. Using this technique, they cast rays 
+            perpendicularly from each pixel on the screen. Any surface 
+            that each ray would hit would be put together to form a 
+            final shaded picture of the objects that were present. A 
+            second example of ray casting was presented by Scott Roth 
+            in 1976. After this point, there were many more instances 
+            of individuals and companies creating and testing their 
+            own forms of ray tracing. </p>
+        <h3 align="center">Ray tracing in film:</h3>
+        <p>The film industry was one of the first major industry to 
+            adopt ray tracing as a widely used lighting technique in 
+            animations. While this feels like a while ago, it wasn’t 
+            until the last 10 years when the first movies began to 
+            come out that fully utilized ray tracing for their lighting 
+            and shading needs. One of the first movie that came out 
+            that fully utilized ray tracing was the movie Monster’s 
+            University which released in 2013. After this, almost 
+            every Pixar movie and many other movie studios moved to 
+            ray tracing due to it’s realistic and beautiful final 
+            results. The ray tracing technique that is used by these 
+            studios as well as all of the other post-processing that 
+            needs to be done requires render farms of thousands of 
+            computers to render each individual frame of the movie. 
+            This process can still take a very long time. In the 
+            case of Monster’s University, it took Pixar 29 hours to 
+            render each frame of the movie. At 24 frames per second, 
+            this adds up to an insane amount of time to render the 
+            whole movie. Knowing this, it seems incredible that Nvidia 
+            was able to create a technology that uses raytracing, while 
+            not at the same level, and renders dozens if not hundreds 
+            of frames per second. </p>
+        <h3 align="center">Ray tracing in video games:</h3>
+        <p>Much later, the video game industry was able to adopt ray 
+            tracing as a phenomenal lighting and shading technique 
+            for its games. While this technology had been around for 
+            decades, there did not exist a powerful enough graphics 
+            card that could render lighting on demand using ray 
+            tracing. Ray tracing takes in insane amount of power and 
+            speed to be able to render individual light particles 
+            and to track where they go and what they bounce off of. 
+            It was hard enough for many modern games to render 
+            immersive lighting using the traditional, less intensive, 
+            rasterization technique. This all changes when, in 2018, 
+            the graphics card manufacturer Nvidia developed and 
+            released their 2000 series graphics cards which contained 
+            a new hardware technology called RT cores (Ray Tracing 
+            Cores). These cores were specifically designed to know 
+            how to render light particles. This was their only job 
+            and the algorithms they used were developed for rendering 
+            and track light particles. By making dedicated cores that 
+            utilize he real time ray tracing algorithm, Nvidia was 
+            able to offload some of the work of the traditional CUDA 
+            cores. This was the most successful technique ever 
+            developed for rendering immersive lighting in video games 
+            and RT cores were pretty good at their job all things 
+            considered. While the performance was still not at the 
+            desired level, it was still the best it had ever been. 
+            After Nvidia developed this technology, it was up to the 
+            individual game studies to implement it into their video 
+            games. Dice Studios, which is based out of Stockholm 
+            Sweden partnered with Nvidia to showcase Nvidia’s ray 
+            tracing technology alongside their own brand-new 
+            Battlefield title, Battlefield V. Since then, many game 
+            studios have implemented ray tracing as their primary 
+            form of light rendering while also providing traditional 
+            rasterization techniques so that consumers who do not 
+            have the hardware capabilities to run ray tracing can 
+            still play their games. Although, at the cost of not 
+            benefiting from the graphical fidelity that ray tracing 
+            provides. Being able to play using rasterization 
+            techniques is still better than not being able to play 
+            at all. Since the launch of the RTX 2000 series graphics 
+            cards in 2018, Nvidia has release an entirely new 
+            generation of graphs cards called the 3000 series cards. 
+            These cards have gained significant performance in ray 
+            tracing performance over the 2000 series graphics cards.</p>
+        <h4>Citations:</h4>
+        <p>Durer’s door: <a href="http://www.brian-curtis.com/text/conferpape_steveluecking.html">http://www.brian-curtis.com/text/conferpape_steveluecking.html</a></p>
+        <p>Arthur Appel: <a href="http://graphics.stanford.edu/courses/Appel.pdf">http://graphics.stanford.edu/courses/Appel.pdf</a></p>
+        <p>Mathematical Application Group Inc.: <a href="https://www.semanticscholar.org/paper/3-D-Visual-simulation-Goldstein-Nagel/a9492751a681b53827a846159a7216a72fbb39df">https://www.semanticscholar.org/paper/3-D-Visual-simulation-Goldstein-Nagel/a9492751a681b53827a846159a7216a72fbb39df</a></p>
+        <p>How Pixar made Monster’s University: <a href="https://venturebeat.com/2013/04/24/the-making-of-pixars-latest-technological-marvel-monsters-university/">https://venturebeat.com/2013/04/24/the-making-of-pixars-latest-technological-marvel-monsters-university/</a></p>
     </body>
 </html>
